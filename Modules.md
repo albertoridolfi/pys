@@ -1,0 +1,1 @@
+A useful and widespread convention is that Python files that are primarily intended to be imported as modules, when run directly, should execute some self-test operations, as covered in [“Testing”](https://learning.oreilly.com/library/view/python-in-a/9781098113544/ch17.html#testing).
