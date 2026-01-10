@@ -1,0 +1,5 @@
+In IntelliJ IDEA, the prompt that asks “what do you want to do?” is Find Action.
+
+🔑 Hotkey
+	•	macOS: ⌘ Command + ⇧ Shift + A
+	•	Windows / Linux: Ctrl + Shift + A
