@@ -1,6 +1,5 @@
-```python
 class Joke:
-		def __init__(self, joke_type): # Initializer, similar in purpose to the constructor in other OOP languages
+    def __init__(self, joke_type):  # Initializer, similar to a constructor
         if joke_type == "funny":
             self.question = "How can you tell an elephant is in your fridge?"
             self.answer = "There are footprints in the butter!"
@@ -11,12 +10,12 @@ class Joke:
             self.question = "Why did the chicken cross the road?"
             self.answer = "To get to the other side!"
 
-		def tell(self):
+    def tell(self):
         print(self.question)
         print(self.answer)
+
 
 ########
 
 lethal_joke = Joke("lethal")
 lethal_joke.tell()
-```

@@ -1,4 +1,3 @@
-```python
 num_from_user = input("Enter a number: ")
 
 try:
@@ -8,4 +7,3 @@ except ValueError:
     num = 0
 
 print(f"Your number squared is {num**2}")
-```
