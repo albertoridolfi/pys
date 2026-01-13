@@ -79,3 +79,11 @@ marypop = ('supercali'       # '(' begins logical line,
 # INSERTING UNICODE CHARACTERS
 ################
 #In str literals, you can use \u followed by four hex digits, or \U followed by eight hex digits, to denote Unicode characters; you can also include the escape sequences listed in [Table 3-3](https://learning.oreilly.com/library/view/python-in-a/9781098113544/ch03.html#string_escape_sequences). str literals can also include Unicode characters using the escape sequence \N{_name_}, where _name_ is a standard [Unicode name](http://www.unicode.org/charts). For example, \N{Copyright Sign} indicates a Unicode copyright sign character (©).
+
+################
+# UNICODE NORMALIZATION
+################
+a, o = 100, 101
+ª, º = 200, 201
+# RESULT: 200 201 200 201  # expected "100 101 200 201"
+# It is best to avoid using normalizable Unicode characters in your Python identifiers

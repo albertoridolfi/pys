@@ -1,0 +1,2 @@
+# - Python is considered a  _STRONGLY TYPED LANGUAGE_, meaning you usually can’t magically combine data of different types
+# - Python is, however,  _weakly bound_, so it is possible to assign a value of a different type to an existing variable
